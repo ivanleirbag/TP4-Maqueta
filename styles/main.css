@@ -1,0 +1,12 @@
+.header{
+    background-color: #212429;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    height: fit-content;
+  }
+
+#logo{
+    height: max-content;
+    min-height: 5vh;
+    max-height: 12vh;
+}
