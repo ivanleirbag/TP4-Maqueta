@@ -36,8 +36,14 @@
  z-index: 4;
 }
 .texto p{
-  font-size: 18px;
+  font-size: 0.5rem;
+  margin-bottom: 3px;
 }
+
+.texto h5{
+  font-size: 0.7rem;
+}
+
 .etiqueta{
   height: 22px;
   margin-right: 5px;
@@ -46,7 +52,55 @@
  text-align: right;
 }
 
-@media (min-width: 768px){
+#button{
+  height: fit-content;
+  width: fit-content;
+  font-size: 0.5rem;
+}
+
+
+@media (min-width: 576px){
+  .header{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 3rem;
+  }
+
+  #logo{
+      max-height: 1.2rem;
+      font-size: 0.9rem;
+  }
+
+
+  .carousel-caption{
+    text-align: right;
+    padding-left: 20vw;
+  }
+
+
+  .texto p{
+    font-size: 0.8rem;
+    margin-bottom: 3px;
+  }
+  
+  .texto h5{
+    font-size: 1.5rem;
+  }
+  
+  .etiqueta{
+    height: 22px;
+    margin-right: 5px;
+  }
+
+  #button{
+    height: fit-content;
+    width: fit-content;
+    font-size: 0.8rem;
+  }
+
+ }
+
+ @media (min-width: 992px){
   .header{
     padding-left: 7vw;
     padding-right: 7vw;
@@ -57,5 +111,26 @@
       max-height: 1.8rem;
       font-size: 1.2rem;
   }
-}
 
+
+  .carousel-caption{
+    text-align: right;
+    padding-left: 35vw;
+  }
+
+  .texto{
+    z-index: 4;
+  }
+  .texto p{
+    font-size: 1rem;
+  }
+  
+  .texto h5{
+    font-size: 2rem;
+  }
+  #button{
+    height: fit-content;
+    width: fit-content;
+    font-size: 1rem;
+  }
+ }
