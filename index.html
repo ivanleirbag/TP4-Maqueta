@@ -14,15 +14,23 @@
 </head>
 <body>
     <div class="container-fluid header">
-            <nav class="navbar row p-0 navbar-expand-md">
+            <nav class="navbar p-0 navbar-expand-md header d-inline-flex w-100">
                 <a 
-                class="navbar-brand col-md-4 
+                class="navbar-brand w-25 
                   p-0 d-inline-flex align-content-center" 
                 href="#">
-                    <h1 class="pb-0 "><img src="assets/imagenes/logo-utn.png"class="img-fluid" id="logo" alt=""></h1>
-                    <p class="text-light ps-1 pb-0 mb-1 align-self-center h6 " id="logo">FRCon</p>
+                    <img src="assets/imagenes/logo-utn.png"class="" id="logo" alt="">
+                    <p class="text-light" id="logo">FRCon</p>
                 </a>
-                <div class="collapse navbar-collapse col-8" id="navbarSupportedContent">
+                <button class="navbar-toggler" type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarSupportedContent1"
+                        aria-controls="navbarSupportedContent1" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-light" style="align-content: center;"><i class="fas fa-bars"></i></span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-opts">
                       <li class="nav-item">
                         <a class="nav-link active text-light" aria-current="page" href="#">La Conferencia</a>
@@ -58,8 +66,8 @@
           alt="..."
         />
         <div class="carousel-caption texto">
-          <h5>UTN FRCon</h5>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus at officia eveniet fuga eligendi nobis repellat quidem, ducimus vero harum impedit dicta itaque! Aliquid impedit dolores nisi officia qui repudiandae.</p>
+          <h1>UTN FRCon</h1>
+          <p>Fecerunt. Tandem fregerunt. Tandem vicit. Destruxerunt aliquem. Aliquam quis semper felis, quis semper risus. Quaerat odio non dignissimos. Aliquam qui nulla nisi. Toto corde aliquis amavit.</p>
           <button type="button" class="btn btn-outline-light" id="button">
             Quiero ser orador
           </button>
@@ -70,6 +78,53 @@
       </div>
     </div>
   </div>
+<div class="title-oradores">
+          <p class="text-secondary">CONOCE A LOS</p>
+          <h5>ORADORES</h5>
+        </div>
+      </div>
+    <div class="cards-presentation">
+      
+      <div class="card" id="card-or">
+        <img src="./assets/imagenes/steve.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="padding-top: 0.5rem;">
+          <div class="skills">
+            <a href="https://es.wikipedia.org/wiki/JavaScript" class="btn btn-warning ubuntu-bold">JavaScript</a>
+            <a href="https://es.react.dev/" class="btn btn-info text-light ubuntu-bold">React</a>
+          </div>
+          <h5 class="card-title">Steve Jobs</h5>
+          <p class="card-text">Omnes holograei sunt, perpetuo a chato interdicti sunt. exi hinc tibi dixi. decorticavit puga</p>
+        </div>
+      </div>
+      <div class="card" id="card-or">
+        <img src="./assets/imagenes/bill.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="padding-top: 0.5rem;">
+          <div class="skills">
+            <a href="https://es.wikipedia.org/wiki/JavaScript" class="btn btn-warning ubuntu-bold">JavaScript</a>
+            <a href="https://es.react.dev/" class="btn btn-info text-light ubuntu-bold">React</a>
+          </div>
+          <h5 class="card-title">Bill Gates</h5>
+          <p class="card-text">Omnes holograei sunt, perpetuo a chato interdicti sunt. exi hinc tibi dixi. decorticavit puga</p>
+        </div>
+      </div>
+      <div class="card" id="card-or">
+        <img src="./assets/imagenes/ada.jpeg" class="card-img-top" alt="...">
+        <div class="card-body" style="padding-top: 0.5rem;">
+          <div class="skills">
+            <a href="https://ar.linkedin.com/" class="btn btn-secondary ubuntu-bold">Negocios</a>
+            <a href="https://www.kickstarter.com/?lang=es" class="btn btn-danger text-light ubuntu-bold">Startups</a>
+          </div>
+          <h5 class="card-title">Ada Lovelace</h5>
+          <p class="card-text">Omnes holograei sunt, perpetuo a chato interdicti sunt. exi hinc tibi dixi. decorticavit puga</p>
+        </div>
+      </div>
+    </div>
 
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+  
 </body>
+
 </html>

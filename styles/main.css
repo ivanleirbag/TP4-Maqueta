@@ -1,15 +1,28 @@
 
 .header{
   background-color: #212429;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  height: 2rem;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  height: fit-content;
 }
 
-#logo{
-  max-height: 0.9rem;
-  font-size: 0.6rem;
+.header a{
+  height: fit-content;
+  max-height: 6vw;
+  align-items: center;
 }
+.header a p{
+  font-size: 2vw;
+  padding: 1rem 0 0 4px;
+  font-weight: 450;
+  color: white;
+  
+}
+.header a img{
+  height: 4vw;
+  max-height: 30px;
+}
+
 .navbar-opts{
   font-size: 0.8rem;
   align-items: baseline;
@@ -40,7 +53,15 @@
   margin-bottom: 3px;
 }
 
+.nav-item a{
+  font-size: 0.5rem;
+}
+
 .texto h5{
+  font-size: 0.7rem;
+}
+
+.texto h1{
   font-size: 0.7rem;
 }
 
@@ -48,6 +69,7 @@
   height: 22px;
   margin-right: 5px;
 }
+
 .carousel-caption{
  text-align: right;
 }
@@ -58,33 +80,77 @@
   font-size: 0.5rem;
 }
 
+.cards-presentation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-oradores p{
+  font-size: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.title-oradores h5{
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.title-oradores{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-presentation img{
+  height: 50vw;
+}
+
+.cards-presentation p{
+  font-size: 0.5rem;
+}
+
+.cards-presentation h5{
+  font-size: 0.6rem;
+}
+
+#card-or{
+  max-width: 50vw;
+  margin-top: 10px;
+}
+
+.skills .btn{
+  padding: 0 3px 0 3px;
+  margin-right: 3px;
+}
+
+.skills a{
+  font-size: 0.4rem;
+}
 
 @media (min-width: 576px){
-  .header{
-    padding-left: 5vw;
-    padding-right: 5vw;
-    height: 3rem;
-  }
-
-  #logo{
-      max-height: 1.2rem;
-      font-size: 0.9rem;
-  }
-
-
   .carousel-caption{
     text-align: right;
     padding-left: 20vw;
   }
 
-
   .texto p{
     font-size: 0.8rem;
     margin-bottom: 3px;
   }
-  
+  .nav-item a{
+    font-size: 0.8rem;
+  }
   .texto h5{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+  }
+
+  .texto h1{
+    font-size: 1.6rem;
   }
   
   .etiqueta{
@@ -98,20 +164,52 @@
     font-size: 0.8rem;
   }
 
+  .title-oradores p{
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+  }
+
+  .title-oradores h5{
+    font-size: 1.8rem;
+  }
+
+
+  .cards-presentation{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .cards-presentation img{
+    height: 26vw;
+  }
+
+  .cards-presentation p{
+    font-size: 0.6rem;
+  }
+
+  .cards-presentation h5{
+    font-size: 0.8rem;
+  }
+
+  #card-or{
+
+    max-width: 26vw;
+  }
+  
+  .skills .btn{
+    padding: 0 5px 0 5px;
+    margin-right: 5px;
+  }
+
+  .skills a{
+    font-size: 0.5rem;
+  }
  }
 
+
  @media (min-width: 992px){
-  .header{
-    padding-left: 7vw;
-    padding-right: 7vw;
-    height: 3.5rem;
-  }
-
-  #logo{
-      max-height: 1.8rem;
-      font-size: 1.2rem;
-  }
-
 
   .carousel-caption{
     text-align: right;
@@ -124,13 +222,61 @@
   .texto p{
     font-size: 1rem;
   }
+  .nav-item a{
+    font-size: 1rem;
+  }
   
   .texto h5{
     font-size: 2rem;
   }
+  .texto h1{
+    font-size: 2rem;
+  }
+
   #button{
     height: fit-content;
     width: fit-content;
     font-size: 1rem;
+  }
+
+  .title-oradores p{
+    font-size: 1rem;
+    padding-top: 0.7rem;
+  }
+
+  .title-oradores h5{
+    font-size: 2.5rem;
+  }
+
+  .cards-presentation{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+
+  .cards-presentation img{
+    height: 25vw;
+  }
+  
+  .cards-presentation p{
+    font-size: 0.8rem;
+  }
+
+  .cards-presentation h5{
+    font-size: 1.2rem;
+  }
+
+  #card-or{
+    width: 26vw;
+  }
+
+  .skills .btn{
+    padding: 0 5px 0 5px;
+    margin-right: 5px;
+  }
+
+  .skills a{
+    font-size: 0.7rem;
+    
   }
  }
